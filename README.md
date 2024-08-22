@@ -2872,7 +2872,7 @@ helm upgrade --install gloo-platform gloo-platform \
   --namespace gloo-mesh \
   --kube-context ${CLUSTER1} \
   --reuse-values \
-  --version 2.6.0-rc1 \
+  --version 2.6.0 \
   --values - <<EOF
 telemetryCollectorCustomization:
   extraProcessors:
@@ -2955,7 +2955,7 @@ helm upgrade --install gloo-platform gloo-platform \
   --namespace gloo-mesh \
   --kube-context ${CLUSTER1} \
   --reuse-values \
-  --version 2.6.0-rc1 \
+  --version 2.6.0 \
   --values - <<EOF
 telemetryCollectorCustomization:
   extraProcessors:
